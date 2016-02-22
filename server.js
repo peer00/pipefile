@@ -37,7 +37,7 @@ else {
     });
 
     app.get('/test2.zip', function (req, res) {
-      request('https://www.dropbox.com/s/vrgifjynpdwpx50/Symantec%20Endpoint%20Protection%2012.rar?dl=0').pipe(res);
+      request('https://www.dropbox.com/s/vrgifjynpdwpx50/Symantec%20Endpoint%20Protection%2012.rar?dl=1').pipe(res);
     });
 
 
