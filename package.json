@@ -1,0 +1,17 @@
+{
+  "name": "pipefile",
+  "version": "0.0.1",
+  "description": "pipefile testing",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
