@@ -36,6 +36,11 @@ else {
       request('https://nessys-my.sharepoint.com/personal/joel_nessys_nl/_layouts/15/guestaccess.aspx?guestaccesstoken=qAjeo%2fgc15oe1fK42s0cIbnc7z2HFRnoOYbxDBlnSQA%3d&docid=00042863a443f44a1a94a7743303b0ad1&expiration=2016%2f02%2f23+13%3a25%3a04').pipe(res);
     });
 
+    app.get('/test2.zip', function (req, res) {
+      request('https://www.dropbox.com/s/vrgifjynpdwpx50/Symantec%20Endpoint%20Protection%2012.rar?dl=0').pipe(res);
+    });
+
+
     app.listen(process.env.PORT || 3000, function () {
       console.log('Example app listening on port 3000!');
     });
