@@ -4,6 +4,7 @@
   "description": "pipefile testing",
   "main": "server.js",
   "dependencies": {
+    "cluster": "^0.7.7",
     "express": "^4.13.4",
     "request": "^2.69.0"
   },
